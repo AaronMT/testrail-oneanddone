@@ -1,0 +1,48 @@
+{
+  "17": {
+    "61": {
+      "0": {
+        "created_by": 16,
+        "created_on": 1468998888,
+        "custom_expected": "None",
+        "custom_goals": "None",
+        "custom_mission": "None",
+        "custom_one_and_done": "True",
+        "custom_preconds": "None",
+        "custom_steps": "None",
+        "custom_steps_separated": [
+          {
+            "content": "Launch Firefox and open the `Browser Console` from menu [≡] → select `Developer` → select `Browser Console`.",
+            "expected": "- Firefox is successfully launched.\n- The `Browser Console` is successfully opened."
+          },
+          {
+            "content": "Install [popular add-ons from AMO](https://addons.mozilla.org/en-US/firefox/extensions/?sort=users).",
+            "expected": "The user is able to install any compatible add-ons from AMO."
+          },
+          {
+            "content": "Install [new add-ons from AMO](https://addons.mozilla.org/en-US/firefox/extensions/?sort=created)'s newest additions section.",
+            "expected": "The user is able to install any compatible add-ons from AMO."
+          },
+          {
+            "content": "Test these add-ons for:\n- rendering issues\n- functional issues\n- performance issues\n- crashes\n\n**⚠ NOTE** Pay particular attention to any problems seen after updating Firefox with add-ons installed.",
+            "expected": "There are no issues encountered while using any of the add-ons in question."
+          }
+        ],
+        "custom_test_case_owner": "None",
+        "estimate": "40m",
+        "estimate_forecast": "40m",
+        "id": 3877,
+        "milestone_id": "None",
+        "priority_id": 2,
+        "refs": "None",
+        "section_id": 63,
+        "suite_id": 61,
+        "template_id": 2,
+        "title": "Popular add-ons work as expected while performing everyday tasks",
+        "type_id": 6,
+        "updated_by": 14,
+        "updated_on": 1469652745
+      }
+    }
+  }
+}

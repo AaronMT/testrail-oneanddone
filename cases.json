@@ -1,0 +1,95 @@
+{
+    "projects":{
+        "12":{
+            "cases":{
+                "3205":{
+                    "created_by":2,
+                    "created_on":1465618361,
+                    "custom_expected":null,
+                    "custom_goals":null,
+                    "custom_mission":null,
+                    "custom_one_and_done":true,
+                    "custom_preconds":null,
+                    "custom_steps":null,
+                    "custom_steps_separated":[
+                        {
+                            "content":"when Log in> Manage> Runs> Enter data in search field> click Return",
+                            "expected":"then Test run results display matching search results"
+                        },
+                        {
+                            "content":"when Enter search criteria for: status, product, product version, creator, environment, case id, description, name > click enter",
+                            "expected":"then Test run results display matching search results"
+                        }
+                    ],
+                    "custom_test_case_owner":null,
+                    "estimate":null,
+                    "estimate_forecast":null,
+                    "id":3205,
+                    "milestone_id":null,
+                    "priority_id":2,
+                    "refs":null,
+                    "section_id":25,
+                    "suite_id":16,
+                    "template_id":2,
+                    "title":"Able to search test runs",
+                    "type_id":7,
+                    "updated_by":14,
+                    "updated_on":1469650344
+                }
+            },
+            "project_name":"Moztrap Import Test Project"
+        },
+        "17":{
+            "project_name":"Firefox Desktop",
+            "suites":{
+                "61":{
+                    "cases":{
+                        "3877":{
+                            "created_by":16,
+                            "created_on":1468998888,
+                            "custom_expected":null,
+                            "custom_goals":null,
+                            "custom_mission":null,
+                            "custom_one_and_done":true,
+                            "custom_preconds":null,
+                            "custom_steps":null,
+                            "custom_steps_separated":[
+                                {
+                                    "content":"Launch Firefox and open the `Browser Console` from menu [\u2261] \u2192 select `Developer` \u2192 select `Browser Console`.",
+                                    "expected":"- Firefox is successfully launched.\n- The `Browser Console` is successfully opened."
+                                },
+                                {
+                                    "content":"Install [popular add-ons from AMO](https://addons.mozilla.org/en-US/firefox/extensions/?sort=users).",
+                                    "expected":"The user is able to install any compatible add-ons from AMO."
+                                },
+                                {
+                                    "content":"Install [new add-ons from AMO](https://addons.mozilla.org/en-US/firefox/extensions/?sort=created)'s newest additions section.",
+                                    "expected":"The user is able to install any compatible add-ons from AMO."
+                                },
+                                {
+                                    "content":"Test these add-ons for:\n- rendering issues\n- functional issues\n- performance issues\n- crashes\n\n**\u26a0 NOTE** Pay particular attention to any problems seen after updating Firefox with add-ons installed.",
+                                    "expected":"There are no issues encountered while using any of the add-ons in question."
+                                }
+                            ],
+                            "custom_test_case_owner":null,
+                            "estimate":"40m",
+                            "estimate_forecast":"40m",
+                            "id":3877,
+                            "milestone_id":null,
+                            "priority_id":2,
+                            "refs":null,
+                            "section_id":63,
+                            "suite_id":61,
+                            "template_id":2,
+                            "title":"Popular add-ons work as expected while performing everyday tasks",
+                            "type_id":6,
+                            "updated_by":14,
+                            "updated_on":1469652745
+                        }
+                    }
+                },
+                "suite_name":"Add-on compatibility [RelQA]"
+            }
+        }
+    }
+}
